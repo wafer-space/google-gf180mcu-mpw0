@@ -4,7 +4,7 @@ GFMPW-0 was the first GlobalFoundries GF180MCU shuttle of the Google-sponsored O
 
 - Shuttle ID: GFMPW-0
 - Process: GF180MCU
-- Number of slots: 40 (40x 1×1, as a 5 × 8 grid)
+- Number of slots: 40 (40x 1×1, as an 8 × 5 grid)
 
 <div align="center">
 <table width="100%">
@@ -15,7 +15,7 @@ GFMPW-0 was the first GlobalFoundries GF180MCU shuttle of the Google-sponsored O
 </table>
 </div>
 
-This repository presents the shuttle in the same format as the [wafer.space](https://wafer.space/) run repositories ([ws-run1](https://github.com/wafer-space/ws-run1), [ws-run2](https://github.com/wafer-space/ws-run2)), so the same tools can analyse it. The "reticle" in `layout/` is synthetic: it was assembled from the individual final dies published at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000), placed in wafer.space 1×1 slot positions. It is not the mask set as manufactured.
+This repository presents the shuttle in the same format as the [wafer.space](https://wafer.space/) run repositories ([ws-run1](https://github.com/wafer-space/ws-run1), [ws-run2](https://github.com/wafer-space/ws-run2)), so the same tools can analyse it. The "reticle" in `layout/` is synthetic: it was assembled from the individual final dies published at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000), placed in wafer.space 1×1 slot positions. It is not the mask set as manufactured. The dies keep their arrangement on the real GFMPW-0 reticle, as shown in `images/gfmpw-0.png`, where each die lies on its side in 8 rows of 5. Here the whole reticle is turned 90° clockwise so that its long edge is at the top and every die is upright: position A1 is at the top right, A8 at the top left and E1 at the bottom right.
 
 In the layout, every cell of a die is renamed `<CODE>_<original name>` and each die's top cell is `<CODE>_caravel_<column>_<row>`. The code is the last four hex digits of the Efabless user ID.
 
