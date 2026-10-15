@@ -1,0 +1,53 @@
+# GFMPW-0 schedule, in the format of the wafer.space website's _data/runs.yml
+# so the wafer.space run report tools can render it as the shuttle timeline.
+#
+# Sources:
+# - Google Open Source Blog, 2022-10-31, "Google funds open source silicon
+#   manufacturing shuttles for GlobalFoundries PDK": submissions open from
+#   31 October 2022 to 5 December 2022.
+#   https://opensource.googleblog.com/2022/10/announcing-globalfoundries-open-mpw-shuttle-program.html
+# - Efabless shuttle page https://platform.efabless.com/shuttles/GFMPW-0 (now offline),
+#   Wayback Machine snapshot 2024-12-13: "Open Oct 31, 2022 / Tapeout Dec 05, 2022 /
+#   Assembly Mar 31, 2023 / Delivery Jun 02, 2023", "Closed on Dec 05, 2022 at 11:59 PT",
+#   86 projects submitted for 40 slots.
+#   https://web.archive.org/web/20241213090115/https://platform.efabless.com/shuttles/GFMPW-0
+# - The googlesource shuttle repositories (third_party/shuttle/gf180mcu/mpw-000):
+#   final layouts committed by Efabless between 2022-12-12 and 2022-12-21, last
+#   updates (PR boundary removed) on 2023-01-03.
+
+runs:
+  gfmpw_0:
+    name: "GFMPW-0"
+    process: "GF180MCU"
+    status: "complete"
+    timeline:
+      - title: "Submissions Open"
+        date: "2022-10-31"
+        display_date: "31 October 2022"
+        description: "Google and Efabless open the first GF180MCU Open MPW shuttle"
+        status: "milestone"
+      - title: "Tapeout Deadline"
+        date: "2022-12-05"
+        display_date: "5 December 2022 @ 11:59 PT"
+        description: "Final deadline to submit projects; 86 projects submitted for 40 slots"
+        status: "critical"
+      - title: "Final Layouts"
+        date: "2022-12-21"
+        display_date: "21 December 2022"
+        description: "Efabless commits the final integrated Caravel layouts of the 40 selected projects"
+        status: "milestone"
+      - title: "Layouts Updated"
+        date: "2023-01-03"
+        display_date: "3 January 2023"
+        description: "Last layout updates by Efabless (PR boundary layer removed)"
+        status: "milestone"
+      - title: "Assembly"
+        date: "2023-03-31"
+        display_date: "31 March 2023"
+        description: "Packaging and assembly (Efabless schedule)"
+        status: "milestone"
+      - title: "Delivery"
+        date: "2023-06-02"
+        display_date: "2 June 2023"
+        description: "Chips and evaluation boards delivered to designers (Efabless schedule)"
+        status: "delivery"
