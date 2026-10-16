@@ -9,13 +9,13 @@ GFMPW-0 was the first GlobalFoundries GF180MCU shuttle of the Google-sponsored O
 <div align="center">
 <table width="100%">
   <tr>
-  <td width="50%"><img src="images/gfmpw-0.png" width="95%"/></td>
+  <td width="50%"><img src="images/GFMPW0.png" width="95%"/></td>
   <td width="50%"><img src="images/GFMPW0.svg" width="95%"/></td>
   </tr>
 </table>
 </div>
 
-This repository presents the shuttle in the same format as the [wafer.space](https://wafer.space/) run repositories ([ws-run1](https://github.com/wafer-space/ws-run1), [ws-run2](https://github.com/wafer-space/ws-run2)), so the same tools can analyse it. The "reticle" in `layout/` is synthetic: it was assembled from the individual final dies published at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000), placed in wafer.space 1×1 slot positions. It is not the mask set as manufactured. The dies keep their arrangement on the real GFMPW-0 reticle, as shown in Efabless's `images/gfmpw-0-original.png`, where each die lies on its side in 8 rows of 5. Here, and in `images/gfmpw-0.png` above, the whole reticle is turned 90° clockwise so that its long edge is at the top and every die is upright: position A1 is at the top right, A8 at the top left and E1 at the bottom right.
+This repository presents the shuttle in the same format as the [wafer.space](https://wafer.space/) run repositories ([ws-run1](https://github.com/wafer-space/ws-run1), [ws-run2](https://github.com/wafer-space/ws-run2)), so the same tools can analyse it. The "reticle" in `layout/` is synthetic: it was assembled from the individual final dies published at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000), placed in wafer.space 1×1 slot positions. It is not the mask set as manufactured. `images/GFMPW0.png` is rendered from it with `scripts/lay2img.py` and `reticle.lyp` from [reticle-stitcher](https://github.com/wafer-space/reticle-stitcher) (`--width 4096 --oversampling 4`), the same way as the ws-run images. The dies keep their arrangement on the real GFMPW-0 reticle, as shown in Efabless's `images/gfmpw-0.png`, where each die lies on its side in 8 rows of 5. Here the whole reticle is turned 90° clockwise so that its long edge is at the top and every die is upright: position A1 is at the top right, A8 at the top left and E1 at the bottom right.
 
 In the layout, every cell of a die is renamed `<CODE>_<original name>` and each die's top cell is `<CODE>_caravel_<column>_<row>`. The code is the last four hex digits of the Efabless user ID.
 
@@ -75,7 +75,7 @@ Note: The `GFMPW0.oas` file was split with `split -b 90M GFMPW0.oas GFMPW0-part-
 
 # Provenance
 
-- Source: the shuttle mirrors at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000): one repository per slot (`slot-001` ... `slot-040`) plus `foundry`, which holds `manifest-gfmpw-0.csv`, `gfmpw-0.png` (kept here unchanged as `images/gfmpw-0-original.png`; the copy shown above is turned 90° clockwise) and the DRC summary.
+- Source: the shuttle mirrors at [https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000](https://foss-eda-tools.googlesource.com/third_party/shuttle/gf180mcu/mpw-000): one repository per slot (`slot-001` ... `slot-040`) plus `foundry`, which holds `manifest-gfmpw-0.csv`, `gfmpw-0.png` (kept here unchanged as `images/gfmpw-0.png`) and the DRC summary.
 - Each die is `tapeout/outputs/oas/caravel_<ID>.oas` at the head of `main` in its slot repository. 34 of the 40 match the SHA1 in `manifest-gfmpw-0.csv`. The other six (slots 002, 008, 019, 020, 021 and 029) were updated by Efabless on 2022-12-30 and 2023-01-03 to remove the PR boundary layer (0/0) and the outline shape, the same change the `foundry` repository records as "remove pr boundary for projects"; the manifest SHA1s still refer to the earlier versions. This repository uses the later files.
 - None of the 40 dies contain PR boundary (0/0) shapes, including inside the standard cells.
 - Repository links point to the designer's GitHub repository where one in a public mirror contains the slot's three newest non-Efabless commits; otherwise to the slot repository at googlesource.
