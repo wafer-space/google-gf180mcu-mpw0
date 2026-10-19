@@ -215,30 +215,30 @@ Which transistor voltages and optional devices of the GF180MCU process the 40 de
 
 | Transistor voltage | Designs | Which |
 |---|---|---|
-| 5 V | 38 of 40 | [0ABD](https://wafer.space/google-gf180mcu-mpw0/projects/0ABD.html), [0AFF](https://wafer.space/google-gf180mcu-mpw0/projects/0AFF.html), [105A](https://wafer.space/google-gf180mcu-mpw0/projects/105A.html), [1E9A](https://wafer.space/google-gf180mcu-mpw0/projects/1E9A.html), [1F37](https://wafer.space/google-gf180mcu-mpw0/projects/1F37.html), [4515](https://wafer.space/google-gf180mcu-mpw0/projects/4515.html), [45D6](https://wafer.space/google-gf180mcu-mpw0/projects/45D6.html), [472A](https://wafer.space/google-gf180mcu-mpw0/projects/472A.html), [4F9E](https://wafer.space/google-gf180mcu-mpw0/projects/4F9E.html), [56C6](https://wafer.space/google-gf180mcu-mpw0/projects/56C6.html), [58D2](https://wafer.space/google-gf180mcu-mpw0/projects/58D2.html), [5F3A](https://wafer.space/google-gf180mcu-mpw0/projects/5F3A.html), [5FF2](https://wafer.space/google-gf180mcu-mpw0/projects/5FF2.html), [6079](https://wafer.space/google-gf180mcu-mpw0/projects/6079.html), [6106](https://wafer.space/google-gf180mcu-mpw0/projects/6106.html), [66AD](https://wafer.space/google-gf180mcu-mpw0/projects/66AD.html), [679D](https://wafer.space/google-gf180mcu-mpw0/projects/679D.html), [6E0D](https://wafer.space/google-gf180mcu-mpw0/projects/6E0D.html), [6F7B](https://wafer.space/google-gf180mcu-mpw0/projects/6F7B.html), [7F0C](https://wafer.space/google-gf180mcu-mpw0/projects/7F0C.html), [8455](https://wafer.space/google-gf180mcu-mpw0/projects/8455.html), [8BB5](https://wafer.space/google-gf180mcu-mpw0/projects/8BB5.html), [8D82](https://wafer.space/google-gf180mcu-mpw0/projects/8D82.html), [9C7C](https://wafer.space/google-gf180mcu-mpw0/projects/9C7C.html), [9DDB](https://wafer.space/google-gf180mcu-mpw0/projects/9DDB.html), [A006](https://wafer.space/google-gf180mcu-mpw0/projects/A006.html), [B22E](https://wafer.space/google-gf180mcu-mpw0/projects/B22E.html), [B676](https://wafer.space/google-gf180mcu-mpw0/projects/B676.html), [BBE0](https://wafer.space/google-gf180mcu-mpw0/projects/BBE0.html), [C301](https://wafer.space/google-gf180mcu-mpw0/projects/C301.html), [C979](https://wafer.space/google-gf180mcu-mpw0/projects/C979.html), [E91D](https://wafer.space/google-gf180mcu-mpw0/projects/E91D.html), [EAD1](https://wafer.space/google-gf180mcu-mpw0/projects/EAD1.html), [EB3D](https://wafer.space/google-gf180mcu-mpw0/projects/EB3D.html), [F0DD](https://wafer.space/google-gf180mcu-mpw0/projects/F0DD.html), [F330](https://wafer.space/google-gf180mcu-mpw0/projects/F330.html), [F4D8](https://wafer.space/google-gf180mcu-mpw0/projects/F4D8.html), [FF8E](https://wafer.space/google-gf180mcu-mpw0/projects/FF8E.html) |
-| 6 V | 2 of 40 | [14FB](https://wafer.space/google-gf180mcu-mpw0/projects/14FB.html), [45D6](https://wafer.space/google-gf180mcu-mpw0/projects/45D6.html) |
+| [5 V](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/spice/elec_specs/elec_specs_3.html) | 38 of 40 | [0ABD](https://wafer.space/google-gf180mcu-mpw0/projects/0ABD.html), [0AFF](https://wafer.space/google-gf180mcu-mpw0/projects/0AFF.html), [105A](https://wafer.space/google-gf180mcu-mpw0/projects/105A.html), [1E9A](https://wafer.space/google-gf180mcu-mpw0/projects/1E9A.html), [1F37](https://wafer.space/google-gf180mcu-mpw0/projects/1F37.html), [4515](https://wafer.space/google-gf180mcu-mpw0/projects/4515.html), [45D6](https://wafer.space/google-gf180mcu-mpw0/projects/45D6.html), [472A](https://wafer.space/google-gf180mcu-mpw0/projects/472A.html), [4F9E](https://wafer.space/google-gf180mcu-mpw0/projects/4F9E.html), [56C6](https://wafer.space/google-gf180mcu-mpw0/projects/56C6.html), [58D2](https://wafer.space/google-gf180mcu-mpw0/projects/58D2.html), [5F3A](https://wafer.space/google-gf180mcu-mpw0/projects/5F3A.html), [5FF2](https://wafer.space/google-gf180mcu-mpw0/projects/5FF2.html), [6079](https://wafer.space/google-gf180mcu-mpw0/projects/6079.html), [6106](https://wafer.space/google-gf180mcu-mpw0/projects/6106.html), [66AD](https://wafer.space/google-gf180mcu-mpw0/projects/66AD.html), [679D](https://wafer.space/google-gf180mcu-mpw0/projects/679D.html), [6E0D](https://wafer.space/google-gf180mcu-mpw0/projects/6E0D.html), [6F7B](https://wafer.space/google-gf180mcu-mpw0/projects/6F7B.html), [7F0C](https://wafer.space/google-gf180mcu-mpw0/projects/7F0C.html), [8455](https://wafer.space/google-gf180mcu-mpw0/projects/8455.html), [8BB5](https://wafer.space/google-gf180mcu-mpw0/projects/8BB5.html), [8D82](https://wafer.space/google-gf180mcu-mpw0/projects/8D82.html), [9C7C](https://wafer.space/google-gf180mcu-mpw0/projects/9C7C.html), [9DDB](https://wafer.space/google-gf180mcu-mpw0/projects/9DDB.html), [A006](https://wafer.space/google-gf180mcu-mpw0/projects/A006.html), [B22E](https://wafer.space/google-gf180mcu-mpw0/projects/B22E.html), [B676](https://wafer.space/google-gf180mcu-mpw0/projects/B676.html), [BBE0](https://wafer.space/google-gf180mcu-mpw0/projects/BBE0.html), [C301](https://wafer.space/google-gf180mcu-mpw0/projects/C301.html), [C979](https://wafer.space/google-gf180mcu-mpw0/projects/C979.html), [E91D](https://wafer.space/google-gf180mcu-mpw0/projects/E91D.html), [EAD1](https://wafer.space/google-gf180mcu-mpw0/projects/EAD1.html), [EB3D](https://wafer.space/google-gf180mcu-mpw0/projects/EB3D.html), [F0DD](https://wafer.space/google-gf180mcu-mpw0/projects/F0DD.html), [F330](https://wafer.space/google-gf180mcu-mpw0/projects/F330.html), [F4D8](https://wafer.space/google-gf180mcu-mpw0/projects/F4D8.html), [FF8E](https://wafer.space/google-gf180mcu-mpw0/projects/FF8E.html) |
+| [6 V](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/spice/elec_specs/elec_specs_2.html) | 2 of 40 | [14FB](https://wafer.space/google-gf180mcu-mpw0/projects/14FB.html), [45D6](https://wafer.space/google-gf180mcu-mpw0/projects/45D6.html) |
 
 | Device | Designs drawing it | Which |
 |---|---|---|
-| eFuses | 1 of 40 | [45D6](https://wafer.space/google-gf180mcu-mpw0/projects/45D6.html) |
-| Native transistors | 0 of 40 | — |
-| 10 V LDMOS | 0 of 40 | — |
-| MIM capacitors | 0 of 40 | — |
-| MOS capacitors | 0 of 40 | — |
-| High-resistance poly resistors | 0 of 40 | — |
-| Unsalicided poly resistors | 0 of 40 | — |
-| Salicided poly resistors | 0 of 40 | — |
-| Diffusion resistors | 0 of 40 | — |
-| N-well resistors | 0 of 40 | — |
-| Metal resistors | 0 of 40 | — |
-| Diodes (DIODE_MK) | 0 of 40 | — |
-| Well diodes | 0 of 40 | — |
-| Deep N-well | 0 of 40 | — |
-| Bipolar transistors | 0 of 40 | — |
-| Schottky diodes | 0 of 40 | — |
-| Zener diodes | 0 of 40 | — |
-| One-time programmable memory | 0 of 40 | — |
-| Inductors | 0 of 40 | — |
+| [eFuses](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_11.html) | 1 of 40 | [45D6](https://wafer.space/google-gf180mcu-mpw0/projects/45D6.html) |
+| [Native transistors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_05.html) | 0 of 40 | — |
+| [10 V LDMOS](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_12_1.html) | 0 of 40 | — |
+| [MIM capacitors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_4_2.html) | 0 of 40 | — |
+| [MOS capacitors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_6.html) | 0 of 40 | — |
+| [High-resistance poly resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_03.html) | 0 of 40 | — |
+| [Unsalicided poly resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_01.html) | 0 of 40 | — |
+| [Salicided poly resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 40 | — |
+| [Diffusion resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 40 | — |
+| [N-well resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 40 | — |
+| [Metal resistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_4.html) | 0 of 40 | — |
+| [Diodes (DIODE_MK)](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_3.html) | 0 of 40 | — |
+| [Well diodes](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_3.html) | 0 of 40 | — |
+| [Deep N-well](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_03.html) | 0 of 40 | — |
+| [Bipolar transistors](https://gf180mcu-pdk.readthedocs.io/en/latest/analog/model_parameters/LV/LV_5.html) | 0 of 40 | — |
+| [Schottky diodes](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_14.html) | 0 of 40 | — |
+| [Zener diodes](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html) | 0 of 40 | — |
+| [One-time programmable memory](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_10.html) | 0 of 40 | — |
+| [Inductors](https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html) | 0 of 40 | — |
 
 | Design | Voltages | Custom transistors 3.3 / 5 / 6 V | Devices drawn | I/O library |
 |---|---|---|---|---|
