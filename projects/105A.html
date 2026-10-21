@@ -35,7 +35,7 @@
   <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/color/sky.css">
   <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/color/dark.css">
   <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/custom.css">
-  <link rel="stylesheet" type="text/css" href="../run.css?v=1a84e24183">
+  <link rel="stylesheet" type="text/css" href="../run.css?v=6845eef8df">
 </head>
 <body>
   <div class="content-wrapper">
@@ -85,7 +85,7 @@
   <div class="container inner text-center">
     <p class="mb-10"><a class="run-crumb" href="../index.html">Google GF180MCU open shuttle (GFMPW‑0) · Run by Google and Efabless</a></p>
     <h1 class="page-title">AS2650</h1>
-    <p class="lead"><span class="run-code-inline">105A</span> · Retro computing · 1 × 1 slot</p>
+    <p class="lead"><span class="run-code-inline">105A</span> · Retro computing · <span class="run-nowrap">1 × 1 slot</span></p>
   </div>
 </div>
 
@@ -122,7 +122,7 @@
 <span class="text-muted">(6% of buffer maximum)</span></td></tr>
             <tr><th>Core covered by logic</th><td>1%</td></tr>
             <tr><th>Transistor density<br><span class="small text-muted fw-normal">transistors per mm²</span></th><td>12k average,
-              107k in the densest mm² of logic</td></tr>
+              107k in the mm² with the most logic cells</td></tr>
           </tbody>
         </table>
         <p class="small text-muted mb-0">Every figure here is measured from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>, the same way for every
@@ -192,7 +192,7 @@
             <tr><th>Libraries</th><td>
               <a href="https://gf180mcu-pdk.readthedocs.io/en/latest/digital/standard_cells/gf180mcu_fd_sc_mcu7t5v0/index.html">7t-5V</a> <span class="text-muted">(5k)</span>
 </td></tr>
-            <tr><th>SRAM</th><td>None</td></tr>
+            <tr><th>SRAM</th><td>No SRAM</td></tr>
           </tbody>
         </table>
 
@@ -344,11 +344,13 @@
                 style="font-size: 0.220px">0</text>
           <text x="3.466" y="0.620" class=""
                 style="font-size: 0.220px">0</text>
+          <text x="2.100" y="0.955" class="window-label"
+                style="font-size: 0.220px">5k</text>
         </svg>
         <p class="small text-muted mb-0">Logic cells per mm² in each square millimetre of the
           die. Hatched
-          outlines are SRAM macros; the red outline is the densest mm² that avoids them, found by sliding a
-          1 mm square over the die in 0.1 mm steps. Squares at the edges are partial, so they read low.</p>
+          outlines are SRAM macros; the red outline, labelled in red, is the densest mm² that avoids them, found by sliding a
+          1 mm square over the die in 0.1 mm steps, so it can straddle the fixed squares and find more than any one of them. Squares at the edges are partial, so they read low.</p>
 
       </div>
     </div>
@@ -376,7 +378,7 @@
       </li>
       <li class="run-history-ws">
         <span class="run-timeline-date">Jul 2026 · <a href="https://wafer.space/ws-run2/">wafer.space Run 2</a></span>
-        <span class="run-history-step"><a href="https://wafer.space/ws-run2/projects/AS04.html">AS04 AS04 Multi-Project die using 3.3V SCL</a> <span class="text-muted">— 1 × 1 slot, the multi-project die again, on 3.3 V standard cells</span></span>
+        <span class="run-history-step"><a href="https://wafer.space/ws-run2/projects/AS04.html">AS04 Multi-Project die using 3.3V SCL</a> <span class="text-muted">— 1 × 1 slot, the multi-project die again, on 3.3 V standard cells</span></span>
       </li>
     </ol>
     <p class="small text-muted mb-20 run-history-key"><span class="run-history-key-tt">Tiny Tapeout tile</span>
@@ -449,7 +451,7 @@
               <p class="small mb-0">Generated on 2026-10-21 by
                 <a href="https://github.com/wafer-space/ws-run-reports">ws-run-reports</a>. Sizes, cells and
 transistors are measured
-                from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>; dates come from the published schedules. The
+                from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>; dates come from the Efabless GFMPW-0 shuttle page (archived) and the shuttle repositories. The
                 data files are linked from <a href="../index.html#data">the overview</a>.</p>
             </div>
           </div>
@@ -465,6 +467,6 @@ transistors are measured
   <script src="https://wafer.space/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
   <script src="https://wafer.space/assets/js/plugins.js"></script>
   <script src="https://wafer.space/assets/js/scripts.js"></script>
-  <script src="../run.js?v=1a84e24183"></script>
+  <script src="../run.js?v=6845eef8df"></script>
 </body>
 </html>

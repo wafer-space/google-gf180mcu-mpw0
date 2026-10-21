@@ -35,7 +35,7 @@
   <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/color/sky.css">
   <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/color/dark.css">
   <link rel="stylesheet" type="text/css" href="https://wafer.space/assets/css/custom.css">
-  <link rel="stylesheet" type="text/css" href="run.css?v=1a84e24183">
+  <link rel="stylesheet" type="text/css" href="run.css?v=6845eef8df">
 </head>
 <body>
   <div class="content-wrapper">
@@ -94,7 +94,7 @@
     <h2 class="section-title mb-10 text-center">What was built<a class="run-anchor" href="#summary" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a></h2>
     <p class="lead text-center mb-40">The
       run as a whole: what its designs add up to.</p>
-    <div class="row justify-content-center">
+<p class="run-measure mx-auto text-center mb-40">One of the free open-source GF180MCU shuttles that Google sponsored and Efabless ran. Each design sat in the user area of the <a href="https://caravel-harness.readthedocs.io/">Caravel</a> harness, which took 55% of every die for its management SoC, pads and wiring. Its designs are measured here the same way as wafer.space's own runs, so you can compare them with a wafer.space die, where everything inside the pad ring is your design. The other Google shuttle measured here is <a href="https://wafer.space/google-gf180mcu-mpw18h1/">MPW-18H1</a>.</p>    <div class="row justify-content-center">
       <div class="col-6 col-md-4 col-lg-2 mb-20">
   <div class="box bg-white shadow p-20 text-center h-100">
     <h3 class="mb-5 color-dark run-stat">40</h3>
@@ -373,7 +373,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <li><i style="background: #e6ebf0"></i><strong>Other</strong> 40%
         <span class="text-muted">— routing channels, analog and custom layout, power grid and empty space</span></li>
       <li><i style="background: #f0b84c"></i><strong>Outside the user area</strong> 55%
-        <span class="text-muted">— the pad frame and shared harness around the user&#39;s design, not measured</span></li>
+        <span class="text-muted">— the Caravel harness around the user&#39;s design: its management SoC, pads and wiring</span></li>
     </ul>
 
     <div class="row gutter-50">
@@ -383,41 +383,41 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
         <a class="run-category" href="#digital">
           <span class="run-category-name">Other digital</span>
           <span class="run-category-bar"><i style="width: 100.0%; background: #5ca7db"></i></span>
-          <span class="run-category-count">23</span>
+          <span class="run-category-count">25</span>
         </a>
         <a class="run-category" href="#cpus">
           <span class="run-category-name">RISC-V and CPUs</span>
-          <span class="run-category-bar"><i style="width: 30.4%; background: #9b6bd6"></i></span>
-          <span class="run-category-count">7</span>
+          <span class="run-category-bar"><i style="width: 20.0%; background: #9b6bd6"></i></span>
+          <span class="run-category-count">5</span>
         </a>
         <a class="run-category" href="#retro">
           <span class="run-category-name">Retro computing</span>
-          <span class="run-category-bar"><i style="width: 17.4%; background: #45c4a0"></i></span>
-          <span class="run-category-count">4</span>
-        </a>
-        <a class="run-category" href="#multiproject">
-          <span class="run-category-name">Multi-project die</span>
-          <span class="run-category-bar"><i style="width: 8.7%; background: #f0b84c"></i></span>
-          <span class="run-category-count">2</span>
+          <span class="run-category-bar"><i style="width: 12.0%; background: #45c4a0"></i></span>
+          <span class="run-category-count">3</span>
         </a>
         <a class="run-category" href="#fpga">
           <span class="run-category-name">FPGA</span>
-          <span class="run-category-bar"><i style="width: 4.3%; background: #e2626b"></i></span>
+          <span class="run-category-bar"><i style="width: 8.0%; background: #f0b84c"></i></span>
+          <span class="run-category-count">2</span>
+        </a>
+        <a class="run-category" href="#test">
+          <span class="run-category-name">Test structures</span>
+          <span class="run-category-bar"><i style="width: 8.0%; background: #e2626b"></i></span>
+          <span class="run-category-count">2</span>
+        </a>
+        <a class="run-category" href="#multiproject">
+          <span class="run-category-name">Multi-project die</span>
+          <span class="run-category-bar"><i style="width: 4.0%; background: #6f7bd9"></i></span>
           <span class="run-category-count">1</span>
         </a>
         <a class="run-category" href="#analog">
           <span class="run-category-name">Analog and mixed-signal</span>
-          <span class="run-category-bar"><i style="width: 4.3%; background: #6f7bd9"></i></span>
-          <span class="run-category-count">1</span>
-        </a>
-        <a class="run-category" href="#test">
-          <span class="run-category-name">Test structures</span>
-          <span class="run-category-bar"><i style="width: 4.3%; background: #3fb6c9"></i></span>
+          <span class="run-category-bar"><i style="width: 4.0%; background: #3fb6c9"></i></span>
           <span class="run-category-count">1</span>
         </a>
         <a class="run-category" href="#accelerators">
           <span class="run-category-name">Accelerators</span>
-          <span class="run-category-bar"><i style="width: 4.3%; background: #d98a4f"></i></span>
+          <span class="run-category-bar"><i style="width: 4.0%; background: #d98a4f"></i></span>
           <span class="run-category-count">1</span>
         </a>
       </div>
@@ -1100,7 +1100,8 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
         <div class="box bg-white shadow p-30 h-100">
           <h3 class="mb-5 color-dark">&lt;1k</h3>
           <p class="mb-0 font-weight-600 color-dark">Typical die</p>
-          <p class="mb-0 small text-muted">median logic cells/mm² of core across 16 digital dies</p>
+          <p class="mb-0 small text-muted">median logic cells/mm² of core across 16 digital dies
+            (1,000 or more logic cells)</p>
           <p class="mb-0 small text-muted">1% of the core covered by logic cells</p>
         </div>
       </div>
@@ -1119,7 +1120,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <table class="table table-sm run-table run-guidance bg-white shadow">
         <thead><tr class="run-groups">
           <th colspan="4"></th>
-          <th colspan="2" class="run-group">Logic cells in its designs</th>
+          <th colspan="2" class="run-group">Logic cells in its digital designs<span class="run-note">1,000 or more logic cells</span></th>
           <th colspan="3" class="run-group">Logic cells at this run's density</th>
           <th colspan="2" class="run-group">Theoretical maximum, 7t-5V cells</th>
         </tr><tr>
@@ -1151,7 +1152,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <a href="https://buy.wafer.space/#products">wafer.space Run 3</a>: orders close 9 December 2026.</p>
 
     <h3 id="densities" class="mb-10">Logic density of every digital design<a class="run-anchor" href="#densities" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a></h3>
-    <p class="text-muted small mb-20">Solid bar: average over the core. Outlined bar: the densest mm²
+    <p class="text-muted small mb-20">A digital die here is one with 1,000 or more logic cells. Solid bar: average over the core. Outlined bar: the densest mm²
       outside SRAM (a dash where memory covers most of the design). The scale
       ends at the buffer theoretical maximum (76k cells/mm²). The numbers are
       core / densest, in logic cells per mm².</p>
@@ -1471,13 +1472,13 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <tr><td class="run-mono">4515</td>
         <td><a href="projects/4515.html">Tiny user project: inverter</a></td>
         <td class="run-nowrap">1 × 1</td>
-        <td class="d-none d-lg-table-cell run-nowrap"><a href="#multiproject">Multi-project die</a></td>
+        <td class="d-none d-lg-table-cell run-nowrap"><a href="#test">Test structures</a></td>
         <td class="text-end">24</td>
         <td class="text-end d-none d-sm-table-cell">&lt;1k</td></tr>
       <tr><td class="run-mono">45D6</td>
         <td><a href="projects/45D6.html">Ophelia eFPGA</a></td>
         <td class="run-nowrap">1 × 1</td>
-        <td class="d-none d-lg-table-cell run-nowrap"><a href="#digital">Other digital</a></td>
+        <td class="d-none d-lg-table-cell run-nowrap"><a href="#fpga">FPGA</a></td>
         <td class="text-end">64,755</td>
         <td class="text-end d-none d-sm-table-cell">7k</td></tr>
       <tr><td class="run-mono">472A</td>
@@ -1513,7 +1514,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <tr><td class="run-mono">5FF2</td>
         <td><a href="projects/5FF2.html">74181 ALU</a></td>
         <td class="run-nowrap">1 × 1</td>
-        <td class="d-none d-lg-table-cell run-nowrap"><a href="#cpus">RISC-V and CPUs</a></td>
+        <td class="d-none d-lg-table-cell run-nowrap"><a href="#digital">Other digital</a></td>
         <td class="text-end">77</td>
         <td class="text-end d-none d-sm-table-cell">&lt;1k</td></tr>
       <tr><td class="run-mono">6079</td>
@@ -1531,7 +1532,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <tr class="run-extra"><td class="run-mono">66AD</td>
         <td><a href="projects/66AD.html">ALU (paper)</a></td>
         <td class="run-nowrap">1 × 1</td>
-        <td class="d-none d-lg-table-cell run-nowrap"><a href="#cpus">RISC-V and CPUs</a></td>
+        <td class="d-none d-lg-table-cell run-nowrap"><a href="#digital">Other digital</a></td>
         <td class="text-end">5,960</td>
         <td class="text-end d-none d-sm-table-cell">1k</td></tr>
       <tr class="run-extra"><td class="run-mono">679D</td>
@@ -1597,7 +1598,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <tr class="run-extra"><td class="run-mono">A3A3</td>
         <td><a href="projects/A3A3.html">Signed 8-bit multiplier</a></td>
         <td class="run-nowrap">1 × 1</td>
-        <td class="d-none d-lg-table-cell run-nowrap"><a href="#retro">Retro computing</a></td>
+        <td class="d-none d-lg-table-cell run-nowrap"><a href="#digital">Other digital</a></td>
         <td class="text-end">0</td>
         <td class="text-end d-none d-sm-table-cell"></td></tr>
       <tr class="run-extra"><td class="run-mono">B22E</td>
@@ -1676,7 +1677,8 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
     </table>
     </div>
 <label for="run-index-all" class="run-index-more"><span class="run-show">Show all
-      40 designs</span><span class="run-hide">Show the first 16 only</span></label>    <div class="mb-40"></div>
+      40 designs</span><span class="run-hide">Show the first 16 only</span></label>    <p class="d-sm-none small text-muted mt-10 mb-0">Swipe the table sideways for more columns.</p>
+    <div class="mb-40"></div>
     <h3 id="grew" class="run-category-title">Designs that grew<a class="run-anchor" href="#grew" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a></h3>
     <p class="mb-20 run-measure">These
       designs have been made more than once: first as a Tiny Tapeout tile or on a Google shuttle, then on wafer.space,
@@ -1715,12 +1717,12 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
         <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout SKY 26b</strong> · May 2026<br>Tiny FABulous FPGA<br><span class="text-muted">8 × 4 tiles</span></span>
       </a>
       <a class="run-tl-dot run-tl-tt run-tl-end" href="https://wafer.space/tinytapeouts/ttgf0p3/ws-run2-t0p3/projects/102.html"
-         style="left: 89.18%; --dy: 0px; --dym: 0px"
-         aria-label="Tiny Tapeout GF 0.3, Jul 2026, 4 × 4 tiles">
-        <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout GF 0.3</strong> · Jul 2026<br>2 projects<br><span class="text-muted">4 × 4 tiles</span></span>
+         style="left: 88.09%; --dy: 18px; --dym: -36px"
+         aria-label="Tiny Tapeout GF 0.3, Jun 2026, 4 × 4 tiles">
+        <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout GF 0.3</strong> · Jun 2026<br>2 projects<br><span class="text-muted">4 × 4 tiles</span></span>
       </a>
       <a class="run-tl-dot run-tl-ws run-tl-end" href="https://wafer.space/ws-run2/projects/MOLE.html"
-         style="left: 89.6%; --dy: -18px; --dym: -36px"
+         style="left: 89.6%; --dy: 0px; --dym: 0px"
          aria-label="wafer.space Run 2, Jul 2026, 1 × 1 slot">
         <span class="run-tl-tip" role="tooltip"><strong>wafer.space Run 2</strong> · Jul 2026<br>MOLE FABulous FPGA<br><span class="text-muted">1 × 1 slot</span></span>
       </a>
@@ -1762,7 +1764,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <a class="run-tl-dot run-tl-ws run-tl-end" href="https://wafer.space/ws-run2/projects/AS04.html"
          style="left: 89.6%; --dy: 0px; --dym: 0px"
          aria-label="wafer.space Run 2, Jul 2026, 1 × 1 slot">
-        <span class="run-tl-tip" role="tooltip"><strong>wafer.space Run 2</strong> · Jul 2026<br>AS04 AS04 Multi-Project die using 3.3V SCL<br><span class="text-muted">1 × 1 slot</span></span>
+        <span class="run-tl-tip" role="tooltip"><strong>wafer.space Run 2</strong> · Jul 2026<br>AS04 Multi-Project die using 3.3V SCL<br><span class="text-muted">1 × 1 slot</span></span>
       </a>
     </div>
   </div>
@@ -1772,7 +1774,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
 <i class="run-tl-grid" style="left: 11.19%" aria-hidden="true"></i><i class="run-tl-grid" style="left: 33.37%" aria-hidden="true"></i><i class="run-tl-grid" style="left: 55.62%" aria-hidden="true"></i><i class="run-tl-grid" style="left: 77.81%" aria-hidden="true"></i>      <a class="run-tl-dot run-tl-tt run-tl-start" href="https://tinytapeout.com/chips/tt02/gregdavill_serv_top"
          style="left: 9.36%; --dy: 0px; --dym: 0px"
          aria-label="Tiny Tapeout 2, Dec 2022, 1 × 1 tile">
-        <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout 2</strong> · Dec 2022<br>serv - Serial RISCV CPU<br><span class="text-muted">1 × 1 tile</span></span>
+        <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout 2</strong> · Dec 2022<br>serv - Serial RISC-V CPU<br><span class="text-muted">1 × 1 tile</span></span>
       </a>
       <a class="run-tl-dot run-tl-google current run-tl-start" href="https://wafer.space/google-gf180mcu-mpw0/projects/6079.html"
          style="left: 9.54%; --dy: -18px; --dym: -18px"
@@ -1782,7 +1784,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <a class="run-tl-dot run-tl-tt run-tl-start" href="https://tinytapeout.com/chips/tt03/gregdavill_serv_top"
          style="left: 17.99%; --dy: 0px; --dym: 0px"
          aria-label="Tiny Tapeout 3, Apr 2023, 1 × 1 tile">
-        <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout 3</strong> · Apr 2023<br>serv - Serial RISCV CPU<br><span class="text-muted">1 × 1 tile</span></span>
+        <span class="run-tl-tip" role="tooltip"><strong>Tiny Tapeout 3</strong> · Apr 2023<br>serv - Serial RISC-V CPU<br><span class="text-muted">1 × 1 tile</span></span>
       </a>
       <a class="run-tl-dot run-tl-ws run-tl-end" href="https://wafer.space/ws-run1/projects/GD02.html"
          style="left: 76.05%; --dy: 0px; --dym: 0px"
@@ -1819,7 +1821,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <td><a href="https://tinytapeout.com/chips/ttsky26a/tt_um_fabulous_sky_26a">Tiny FABulous FPGA</a></td><td>8 × 4 tiles</td></tr>
     <tr>      <td><a href="https://tinytapeout.com/chips/ttsky26b/">Tiny Tapeout SKY 26b</a></td><td class="run-nowrap">May 2026</td>
       <td><a href="https://tinytapeout.com/chips/ttsky26b/tt_um_fabulous_sky_26b">Tiny FABulous FPGA</a></td><td>8 × 4 tiles</td></tr>
-    <tr>      <td><a href="https://wafer.space/tinytapeouts/ttgf0p3/ws-run2-t0p3/">Tiny Tapeout GF 0.3</a></td><td class="run-nowrap">Jul 2026</td>
+    <tr>      <td><a href="https://wafer.space/tinytapeouts/ttgf0p3/ws-run2-t0p3/">Tiny Tapeout GF 0.3</a></td><td class="run-nowrap">Jun 2026</td>
       <td><a href="https://wafer.space/tinytapeouts/ttgf0p3/ws-run2-t0p3/projects/102.html">Tiny FABulous FPGA; Tiny FABulous FPGA (3.3V version)</a></td><td>4 × 4 tiles</td></tr>
     <tr>      <td><a href="https://wafer.space/ws-run2/">wafer.space Run 2</a></td><td class="run-nowrap">Jul 2026</td>
       <td><a href="https://wafer.space/ws-run2/projects/MOLE.html">MOLE FABulous FPGA</a></td><td>1 × 1 slot</td></tr>
@@ -1836,13 +1838,13 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
     <tr>      <td><a href="https://wafer.space/ws-run1/">wafer.space Run 1</a></td><td class="run-nowrap">Dec 2025</td>
       <td><a href="https://wafer.space/ws-run1/projects/AS03.html">AS03 WS-Multi</a></td><td>1 × 1 slot</td></tr>
     <tr>      <td><a href="https://wafer.space/ws-run2/">wafer.space Run 2</a></td><td class="run-nowrap">Jul 2026</td>
-      <td><a href="https://wafer.space/ws-run2/projects/AS04.html">AS04 AS04 Multi-Project die using 3.3V SCL</a></td><td>1 × 1 slot</td></tr>
+      <td><a href="https://wafer.space/ws-run2/projects/AS04.html">AS04 Multi-Project die using 3.3V SCL</a></td><td>1 × 1 slot</td></tr>
     <tr><th rowspan="5"><a href="projects/6079.html#related">SERV multi-core RISC-V SoC</a></th>      <td><a href="https://tinytapeout.com/chips/tt02/">Tiny Tapeout 2</a></td><td class="run-nowrap">Dec 2022</td>
-      <td><a href="https://tinytapeout.com/chips/tt02/gregdavill_serv_top">serv - Serial RISCV CPU</a></td><td>1 × 1 tile</td></tr>
+      <td><a href="https://tinytapeout.com/chips/tt02/gregdavill_serv_top">serv - Serial RISC-V CPU</a></td><td>1 × 1 tile</td></tr>
     <tr>      <td><a href="https://wafer.space/google-gf180mcu-mpw0/">Google GFMPW-0</a></td><td class="run-nowrap">Dec 2022</td>
       <td><a href="https://wafer.space/google-gf180mcu-mpw0/projects/6079.html">6079 Serv tri-core (GF180 MPW0 Serv)</a></td><td>Caravel chip</td></tr>
     <tr>      <td><a href="https://tinytapeout.com/chips/tt03/">Tiny Tapeout 3</a></td><td class="run-nowrap">Apr 2023</td>
-      <td><a href="https://tinytapeout.com/chips/tt03/gregdavill_serv_top">serv - Serial RISCV CPU</a></td><td>1 × 1 tile</td></tr>
+      <td><a href="https://tinytapeout.com/chips/tt03/gregdavill_serv_top">serv - Serial RISC-V CPU</a></td><td>1 × 1 tile</td></tr>
     <tr>      <td><a href="https://wafer.space/ws-run1/">wafer.space Run 1</a></td><td class="run-nowrap">Dec 2025</td>
       <td><a href="https://wafer.space/ws-run1/projects/GD02.html">GD02 Racquet Half r1p0 (1/2 slot); GD03 Racquet r2p0 - 23 core SoC; GD04 Racquet Wide 1x0.5</a></td><td>GD02 ½ × 1 slot, GD03 1 × 1 slot, GD04 1 × ½ slot</td></tr>
     <tr>      <td><a href="https://wafer.space/ws-run2/">wafer.space Run 2</a></td><td class="run-nowrap">Jul 2026</td>
@@ -1855,7 +1857,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
     <div class="mb-40"></div>
     <h3 id="digital" class="run-category-title">
       <i style="background: #5ca7db"></i>Other digital
-      <span class="text-muted">23</span><a class="run-anchor" href="#digital" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
+      <span class="text-muted">25</span><a class="run-anchor" href="#digital" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
     </h3>
     <div class="row">
 <div class="col-6 col-md-4 col-xl-3 mb-30">
@@ -1910,23 +1912,6 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
 <div class="col-6 col-md-4 col-xl-3 mb-30">
-  <a class="run-card box bg-white shadow h-100" href="projects/45D6.html">
-    <figure class="run-card-image">
-      <img src="renders/45D6_thumb.webp" alt="Layout render of Ophelia eFPGA" loading="lazy">
-      <span class="run-code">45D6</span>
-    </figure>
-    <div class="run-card-body">
-      <h5 class="post-title mb-5">Ophelia eFPGA</h5>
-      <p class="mb-0 text-muted small">
-        1 × 1 slot
- · 65k logic cells      </p>
-      <p class="mb-0 small run-card-icons">
-<span title="Die photograph available"><i class="jam jam-camera"></i> photo</span>      </p>
-<p class="mb-0 small text-muted run-card-features">5 V · 6 V
-<span class="run-chip">eFuses</span></p>    </div>
-  </a>
-</div>
-<div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/4F9E.html">
     <figure class="run-card-image">
       <img src="renders/4F9E_thumb.webp" alt="Layout render of MCU for solar power" loading="lazy">
@@ -1978,6 +1963,23 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
 <div class="col-6 col-md-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/5FF2.html">
+    <figure class="run-card-image">
+      <img src="renders/5FF2_thumb.webp" alt="Layout render of 74181 ALU" loading="lazy">
+      <span class="run-code">5FF2</span>
+    </figure>
+    <div class="run-card-body">
+      <h5 class="post-title mb-5">74181 ALU</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 77 logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+      </p>
+<p class="mb-0 small text-muted run-card-features">5 V
+</p>    </div>
+  </a>
+</div>
+<div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/6106.html">
     <figure class="run-card-image">
       <img src="renders/6106_thumb.webp" alt="Layout render of FiveGuys" loading="lazy">
@@ -1988,6 +1990,23 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <p class="mb-0 text-muted small">
         1 × 1 slot
  · 105 logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+      </p>
+<p class="mb-0 small text-muted run-card-features">5 V
+</p>    </div>
+  </a>
+</div>
+<div class="col-6 col-md-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/66AD.html">
+    <figure class="run-card-image">
+      <img src="renders/66AD_thumb.webp" alt="Layout render of ALU (paper)" loading="lazy">
+      <span class="run-code">66AD</span>
+    </figure>
+    <div class="run-card-body">
+      <h5 class="post-title mb-5">ALU (paper)</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 6k logic cells      </p>
       <p class="mb-0 small run-card-icons">
       </p>
 <p class="mb-0 small text-muted run-card-features">5 V
@@ -2045,7 +2064,10 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
 </p>    </div>
   </a>
 </div>
-<div class="col-6 col-md-4 col-xl-3 mb-30">
+    </div>
+    <details class="run-more">
+      <summary>Show all 25 in Other digital</summary>
+      <div class="row"><div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/7F0C.html">
     <figure class="run-card-image">
       <img src="renders/7F0C_thumb.webp" alt="Layout render of Universal gates" loading="lazy">
@@ -2062,10 +2084,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
 </p>    </div>
   </a>
 </div>
-    </div>
-    <details class="run-more">
-      <summary>Show all 23 in Other digital</summary>
-      <div class="row"><div class="col-6 col-md-4 col-xl-3 mb-30">
+<div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/8455.html">
     <figure class="run-card-image">
       <img src="renders/8455_thumb.webp" alt="Layout render of GF180 state machine" loading="lazy">
@@ -2148,6 +2167,22 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       </p>
 <p class="mb-0 small text-muted run-card-features">5 V
 </p>    </div>
+  </a>
+</div>
+<div class="col-6 col-md-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/A3A3.html">
+    <figure class="run-card-image">
+      <img src="renders/A3A3_thumb.webp" alt="Layout render of Signed 8-bit multiplier" loading="lazy">
+      <span class="run-code">A3A3</span>
+    </figure>
+    <div class="run-card-body">
+      <h5 class="post-title mb-5">Signed 8-bit multiplier</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 16k transistors      </p>
+      <p class="mb-0 small run-card-icons">
+      </p>
+    </div>
   </a>
 </div>
 <div class="col-6 col-md-4 col-xl-3 mb-30">
@@ -2256,7 +2291,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
     </details>
     <h3 id="cpus" class="run-category-title">
       <i style="background: #9b6bd6"></i>RISC-V and CPUs
-      <span class="text-muted">7</span><a class="run-anchor" href="#cpus" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
+      <span class="text-muted">5</span><a class="run-anchor" href="#cpus" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
     </h3>
     <div class="row">
 <div class="col-6 col-md-4 col-xl-3 mb-30">
@@ -2277,23 +2312,6 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
 <div class="col-6 col-md-4 col-xl-3 mb-30">
-  <a class="run-card box bg-white shadow h-100" href="projects/5FF2.html">
-    <figure class="run-card-image">
-      <img src="renders/5FF2_thumb.webp" alt="Layout render of 74181 ALU" loading="lazy">
-      <span class="run-code">5FF2</span>
-    </figure>
-    <div class="run-card-body">
-      <h5 class="post-title mb-5">74181 ALU</h5>
-      <p class="mb-0 text-muted small">
-        1 × 1 slot
- · 77 logic cells      </p>
-      <p class="mb-0 small run-card-icons">
-      </p>
-<p class="mb-0 small text-muted run-card-features">5 V
-</p>    </div>
-  </a>
-</div>
-<div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/6079.html">
     <figure class="run-card-image">
       <img src="renders/6079_thumb.webp" alt="Layout render of Serv tri-core (GF180 MPW0 Serv)" loading="lazy">
@@ -2304,23 +2322,6 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <p class="mb-0 text-muted small">
         1 × 1 slot
  · 17k logic cells · 1 SRAM      </p>
-      <p class="mb-0 small run-card-icons">
-      </p>
-<p class="mb-0 small text-muted run-card-features">5 V
-</p>    </div>
-  </a>
-</div>
-<div class="col-6 col-md-4 col-xl-3 mb-30">
-  <a class="run-card box bg-white shadow h-100" href="projects/66AD.html">
-    <figure class="run-card-image">
-      <img src="renders/66AD_thumb.webp" alt="Layout render of ALU (paper)" loading="lazy">
-      <span class="run-code">66AD</span>
-    </figure>
-    <div class="run-card-body">
-      <h5 class="post-title mb-5">ALU (paper)</h5>
-      <p class="mb-0 text-muted small">
-        1 × 1 slot
- · 6k logic cells      </p>
       <p class="mb-0 small run-card-icons">
       </p>
 <p class="mb-0 small text-muted run-card-features">5 V
@@ -2381,7 +2382,7 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
     </div>
     <h3 id="retro" class="run-category-title">
       <i style="background: #45c4a0"></i>Retro computing
-      <span class="text-muted">4</span><a class="run-anchor" href="#retro" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
+      <span class="text-muted">3</span><a class="run-anchor" href="#retro" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
     </h3>
     <div class="row">
 <div class="col-6 col-md-4 col-xl-3 mb-30">
@@ -2419,22 +2420,6 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
 <div class="col-6 col-md-4 col-xl-3 mb-30">
-  <a class="run-card box bg-white shadow h-100" href="projects/A3A3.html">
-    <figure class="run-card-image">
-      <img src="renders/A3A3_thumb.webp" alt="Layout render of Signed 8-bit multiplier" loading="lazy">
-      <span class="run-code">A3A3</span>
-    </figure>
-    <div class="run-card-body">
-      <h5 class="post-title mb-5">Signed 8-bit multiplier</h5>
-      <p class="mb-0 text-muted small">
-        1 × 1 slot
- · 16k transistors      </p>
-      <p class="mb-0 small run-card-icons">
-      </p>
-    </div>
-  </a>
-</div>
-<div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/EB3D.html">
     <figure class="run-card-image">
       <img src="renders/EB3D_thumb.webp" alt="Layout render of Jacaranda-8 8-bit CPU" loading="lazy">
@@ -2452,9 +2437,49 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
     </div>
-    <h3 id="multiproject" class="run-category-title">
-      <i style="background: #f0b84c"></i>Multi-project die
-      <span class="text-muted">2</span><a class="run-anchor" href="#multiproject" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
+    <h3 id="fpga" class="run-category-title">
+      <i style="background: #f0b84c"></i>FPGA
+      <span class="text-muted">2</span><a class="run-anchor" href="#fpga" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
+    </h3>
+    <div class="row">
+<div class="col-6 col-md-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/45D6.html">
+    <figure class="run-card-image">
+      <img src="renders/45D6_thumb.webp" alt="Layout render of Ophelia eFPGA" loading="lazy">
+      <span class="run-code">45D6</span>
+    </figure>
+    <div class="run-card-body">
+      <h5 class="post-title mb-5">Ophelia eFPGA</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 65k logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+<span title="Die photograph available"><i class="jam jam-camera"></i> photo</span>      </p>
+<p class="mb-0 small text-muted run-card-features">5 V · 6 V
+<span class="run-chip">eFuses</span></p>    </div>
+  </a>
+</div>
+<div class="col-6 col-md-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/56C6.html">
+    <figure class="run-card-image">
+      <img src="renders/56C6_thumb.webp" alt="Layout render of One-hot FABulous FPGA" loading="lazy">
+      <span class="run-code">56C6</span>
+    </figure>
+    <div class="run-card-body">
+      <h5 class="post-title mb-5">One-hot FABulous FPGA</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 32k logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+      </p>
+<p class="mb-0 small text-muted run-card-features">5 V
+</p>    </div>
+  </a>
+</div>
+    </div>
+    <h3 id="test" class="run-category-title">
+      <i style="background: #e2626b"></i>Test structures
+      <span class="text-muted">2</span><a class="run-anchor" href="#test" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
     </h3>
     <div class="row">
 <div class="col-6 col-md-4 col-xl-3 mb-30">
@@ -2475,6 +2500,29 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
 <div class="col-6 col-md-4 col-xl-3 mb-30">
+  <a class="run-card box bg-white shadow h-100" href="projects/F4D8.html">
+    <figure class="run-card-image">
+      <img src="renders/F4D8_thumb.webp" alt="Layout render of OpenFASoC test structures in GF180MCU" loading="lazy">
+      <span class="run-code">F4D8</span>
+    </figure>
+    <div class="run-card-body">
+      <h5 class="post-title mb-5">OpenFASoC test structures in GF180MCU</h5>
+      <p class="mb-0 text-muted small">
+        1 × 1 slot
+ · 727 logic cells      </p>
+      <p class="mb-0 small run-card-icons">
+<span title="Die photograph available"><i class="jam jam-camera"></i> photo</span>      </p>
+<p class="mb-0 small text-muted run-card-features">5 V
+</p>    </div>
+  </a>
+</div>
+    </div>
+    <h3 id="multiproject" class="run-category-title">
+      <i style="background: #6f7bd9"></i>Multi-project die
+      <span class="text-muted">1</span><a class="run-anchor" href="#multiproject" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
+    </h3>
+    <div class="row">
+<div class="col-6 col-md-4 col-xl-3 mb-30">
   <a class="run-card box bg-white shadow h-100" href="projects/8D82.html">
     <figure class="run-card-image">
       <img src="renders/8D82_thumb.webp" alt="Layout render of XLS bit population count" loading="lazy">
@@ -2492,31 +2540,8 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
   </a>
 </div>
     </div>
-    <h3 id="fpga" class="run-category-title">
-      <i style="background: #e2626b"></i>FPGA
-      <span class="text-muted">1</span><a class="run-anchor" href="#fpga" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
-    </h3>
-    <div class="row">
-<div class="col-6 col-md-4 col-xl-3 mb-30">
-  <a class="run-card box bg-white shadow h-100" href="projects/56C6.html">
-    <figure class="run-card-image">
-      <img src="renders/56C6_thumb.webp" alt="Layout render of One-hot FABulous FPGA" loading="lazy">
-      <span class="run-code">56C6</span>
-    </figure>
-    <div class="run-card-body">
-      <h5 class="post-title mb-5">One-hot FABulous FPGA</h5>
-      <p class="mb-0 text-muted small">
-        1 × 1 slot
- · 32k logic cells      </p>
-      <p class="mb-0 small run-card-icons">
-      </p>
-<p class="mb-0 small text-muted run-card-features">5 V
-</p>    </div>
-  </a>
-</div>
-    </div>
     <h3 id="analog" class="run-category-title">
-      <i style="background: #6f7bd9"></i>Analog and mixed-signal
+      <i style="background: #3fb6c9"></i>Analog and mixed-signal
       <span class="text-muted">1</span><a class="run-anchor" href="#analog" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
     </h3>
     <div class="row">
@@ -2534,29 +2559,6 @@ data-col="7" data-row="0"               style="left: 87.523%; top: 0.231%; width
       <p class="mb-0 small run-card-icons">
       </p>
 <p class="mb-0 small text-muted run-card-features">6 V
-</p>    </div>
-  </a>
-</div>
-    </div>
-    <h3 id="test" class="run-category-title">
-      <i style="background: #3fb6c9"></i>Test structures
-      <span class="text-muted">1</span><a class="run-anchor" href="#test" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a>
-    </h3>
-    <div class="row">
-<div class="col-6 col-md-4 col-xl-3 mb-30">
-  <a class="run-card box bg-white shadow h-100" href="projects/F4D8.html">
-    <figure class="run-card-image">
-      <img src="renders/F4D8_thumb.webp" alt="Layout render of OpenFASoC test structures in GF180MCU" loading="lazy">
-      <span class="run-code">F4D8</span>
-    </figure>
-    <div class="run-card-body">
-      <h5 class="post-title mb-5">OpenFASoC test structures in GF180MCU</h5>
-      <p class="mb-0 text-muted small">
-        1 × 1 slot
- · 727 logic cells      </p>
-      <p class="mb-0 small run-card-icons">
-<span title="Die photograph available"><i class="jam jam-camera"></i> photo</span>      </p>
-<p class="mb-0 small text-muted run-card-features">5 V
 </p>    </div>
   </a>
 </div>
@@ -2616,7 +2618,7 @@ Each project page links to a zoomable viewer of its die. The <a href="https://da
   <div class="container inner">
     <h2 class="section-title mb-10 text-center">Data and method<a class="run-anchor" href="#data" aria-label="Link to this section"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></a></h2>
     <p class="lead text-center mb-30 run-measure">Everything on this
-      page is measured from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>; the dates come from the published schedules.</p>
+      page is measured from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>; the dates come from the Efabless GFMPW-0 shuttle page (archived) and the shuttle repositories.</p>
     <div class="row">
       <div class="col-lg-6 mb-30">
         <ul class="run-method">
@@ -2676,7 +2678,7 @@ pad ring
               <p class="small mb-0">Generated on 2026-10-21 by
                 <a href="https://github.com/wafer-space/ws-run-reports">ws-run-reports</a>. Sizes, cells and
 transistors are measured
-                from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>; dates come from the published schedules. The
+                from the <a href="https://github.com/wafer-space/google-gf180mcu-mpw0">public layout</a>; dates come from the Efabless GFMPW-0 shuttle page (archived) and the shuttle repositories. The
                 data files are linked from <a href="index.html#data">the overview</a>.</p>
             </div>
           </div>
@@ -2692,6 +2694,6 @@ transistors are measured
   <script src="https://wafer.space/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
   <script src="https://wafer.space/assets/js/plugins.js"></script>
   <script src="https://wafer.space/assets/js/scripts.js"></script>
-  <script src="run.js?v=1a84e24183"></script>
+  <script src="run.js?v=6845eef8df"></script>
 </body>
 </html>
